@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="style.css">
+		<title>menu</title>
+	</head>
+		<body>
+			<header>
+				<div class="container">
+				    <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+				    <input id="toggle" type="checkbox">
+				    <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+				    <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+				    <label class="toggle-container" for="toggle">
+				        <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+				        <span class="button button-toggle"></span>
+				    </label>
+				    <!-- Навигация -->
+				    <nav class="nav">
+				        <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Управление</a>
+				        <a rel="nofollow" rel="noreferrer" class="nav-item" href="">История</a>
+				        <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Статистика</a>
+				        <a rel="nofollow" rel="noreferrer" class="nav-item" href="">Настройки</a>
+				    </nav>
+				</div>
+			</header>
+		</body>
+</html>
